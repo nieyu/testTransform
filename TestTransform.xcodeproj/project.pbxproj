@@ -13,6 +13,8 @@
 		5132F16323C87A0F00C112E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5132F16123C87A0F00C112E5 /* Main.storyboard */; };
 		5132F16523C87A1000C112E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5132F16423C87A1000C112E5 /* Assets.xcassets */; };
 		5132F16823C87A1000C112E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5132F16623C87A1000C112E5 /* LaunchScreen.storyboard */; };
+		5132F17023C87EAE00C112E5 /* SliderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5132F16F23C87EAE00C112E5 /* SliderExtension.swift */; };
+		5132F17223C8833900C112E5 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5132F17123C8833900C112E5 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5132F16423C87A1000C112E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5132F16723C87A1000C112E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5132F16923C87A1000C112E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5132F16F23C87EAE00C112E5 /* SliderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExtension.swift; sourceTree = "<group>"; };
+		5132F17123C8833900C112E5 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				5132F15B23C87A0F00C112E5 /* AppDelegate.swift */,
 				5132F15D23C87A0F00C112E5 /* SceneDelegate.swift */,
 				5132F15F23C87A0F00C112E5 /* ViewController.swift */,
+				5132F16F23C87EAE00C112E5 /* SliderExtension.swift */,
+				5132F17123C8833900C112E5 /* UIViewExtension.swift */,
 				5132F16123C87A0F00C112E5 /* Main.storyboard */,
 				5132F16423C87A1000C112E5 /* Assets.xcassets */,
 				5132F16623C87A1000C112E5 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5132F17223C8833900C112E5 /* UIViewExtension.swift in Sources */,
+				5132F17023C87EAE00C112E5 /* SliderExtension.swift in Sources */,
 				5132F16023C87A0F00C112E5 /* ViewController.swift in Sources */,
 				5132F15C23C87A0F00C112E5 /* AppDelegate.swift in Sources */,
 				5132F15E23C87A0F00C112E5 /* SceneDelegate.swift in Sources */,
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W5JQ3L7DHT;
 				INFOPLIST_FILE = TestTransform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W5JQ3L7DHT;
 				INFOPLIST_FILE = TestTransform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
